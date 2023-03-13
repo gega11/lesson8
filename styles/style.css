@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    background-color: #0A22F4;
+    padding: 20px 100px;
+}
+
+.logo{
+    max-width: 100px;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.navigation-li a{
+    color: #FFFFFF;
+}
+
+.navigation-contact a{
+    color: #171717;
+    padding: 15px 30px 15px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+}
