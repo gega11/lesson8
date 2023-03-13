@@ -13,6 +13,8 @@ a{
 }
 
 header{
+    max-width: 1920px;
+    width: 100%;
     background-color: #0A22F4;
     padding: 20px 100px;
 }
@@ -41,4 +43,35 @@ header{
     padding: 15px 30px 15px;
     background-color: #FFFFFF;
     border-radius: 50px;
+}
+
+.articles{
+    max-width: 1800px;
+    width: 100%;
+}
+.article-box{
+    margin-top: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+.article {
+    margin-left: 200px;
+    display: flex;
+    max-width: 460px;
+    align-items: center;
+	flex-wrap: wrap;
+}
+
+.cube{
+    background-color: #0A22F4;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom:30px;
+    padding-left: 30px;
+}
+.article p{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
